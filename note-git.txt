@@ -1,0 +1,82 @@
+
+M3FITRIA30@mefitria30-laptop MINGW64 /d/Download/Self Learning/leas.work/project-go-restful-api
+$ git init
+Initialized empty Git repository in D:/Download/Self Learning/lear.work/project-go-restful-api/.git/
+
+M3FITRIA30@mefitria30-laptop MINGW64 /d/Download/Self Learning/leas.work/project-go-restful-api (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+M3FITRIA30@mefitria30-laptop MINGW64 /d/Download/Self Learning/learn-golang/kelas.work/project-go-restful-api (master)
+$ git add .
+warning: in the working copy of 'go.mod', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'go.sum', LF will be replaced by CRLF the next time Git touches it
+
+M3FITRIA30@mefitria30-laptop MINGW64 /d/Download/Self Learning/learn-golang/kelas.work/project-go-restful-api (master)
+$ git commit -m "Menambahkan Golang Restful API Project"
+[master (root-commit) 3227d1a] Menambahkan Golang Restful API Project
+ 32 files changed, 1395 insertions(+)
+ create mode 100644 cmd/main.go
+ create mode 100644 go.mod
+ create mode 100644 go.sum
+ create mode 100644 internal/database/database.go
+ create mode 100644 internal/database/seed.go
+ create mode 100644 internal/delivery/rest/handler.go
+ create mode 100644 internal/delivery/rest/menu_handler.go
+ create mode 100644 internal/delivery/rest/middleware.go
+ create mode 100644 internal/delivery/rest/order_handler.go
+ create mode 100644 internal/delivery/rest/router.go
+ create mode 100644 internal/delivery/rest/user_handler.go
+ create mode 100644 internal/delivery/rest/utils.go
+ create mode 100644 internal/logger/logger.go
+ create mode 100644 internal/model/auth.go
+ create mode 100644 internal/model/constant/auth.go
+ create mode 100644 internal/model/constant/menu.go
+ create mode 100644 internal/model/constant/order.go
+ create mode 100644 internal/model/menu.go
+ create mode 100644 internal/model/order.go
+ create mode 100644 internal/model/user.go
+ create mode 100644 internal/repository/menu/menu.go
+ create mode 100644 internal/repository/menu/repository.go
+ create mode 100644 internal/repository/order/order.go
+ create mode 100644 internal/repository/order/repository.go
+ create mode 100644 internal/repository/user/hash.go
+ create mode 100644 internal/repository/user/repository.go
+ create mode 100644 internal/repository/user/session.go
+ create mode 100644 internal/repository/user/user.go
+ create mode 100644 internal/tracing/tracing.go
+ create mode 100644 internal/usecase/resto/resto.go
+ create mode 100644 internal/usecase/resto/usecase.go
+ create mode 100644 note.txt
+
+M3FITRIA30@mefitria30-laptop MINGW64 /d/Download/Self Learning/learn-golang/kelas.work/project-go-restful-api (master)
+$ vscode .
+bash: vscode: command not found
+
+M3FITRIA30@mefitria30-laptop MINGW64 /d/Download/Self Learning/learn-golang/kelas.work/project-go-restful-api (master)
+$ code .
+
+M3FITRIA30@mefitria30-laptop MINGW64 /d/Download/Self Learning/learn-golang/kelas.work/project-go-restful-api (master)
+$ git remote add origin https://github.com/mefitria30/project-go-restful-api-resto.git
+
+M3FITRIA30@mefitria30-laptop MINGW64 /d/Download/Self Learning/learn-golang/kelas.work/project-go-restful-api (master)
+$ git branch -M main
+
+M3FITRIA30@mefitria30-laptop MINGW64 /d/Download/Self Learning/learn-golang/kelas.work/project-go-restful-api (main)
+$ git push -u origin main
+Enumerating objects: 49, done.
+Counting objects: 100% (49/49), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (43/43), done.
+Writing objects: 100% (49/49), 17.40 KiB | 810.00 KiB/s, done.
+Total 49 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mefitria30/project-go-restful-api-resto.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+M3FITRIA30@mefitria30-laptop MINGW64 /d/Download/Self Learning/learn-golang/kelas.work/project-go-restful-api (main)
+$
